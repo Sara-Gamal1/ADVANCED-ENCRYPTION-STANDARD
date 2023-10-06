@@ -1,0 +1,316 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Encryption_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_two.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:42 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_two.v 
+# -- Compiling module multiply_two
+# 
+# Top level modules:
+# 	multiply_two
+# End time: 08:33:42 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_thirteen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:42 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_thirteen.v 
+# -- Compiling module multiply_thirteen
+# 
+# Top level modules:
+# 	multiply_thirteen
+# End time: 08:33:42 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_nine.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:42 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_nine.v 
+# -- Compiling module multiply_nine
+# 
+# Top level modules:
+# 	multiply_nine
+# End time: 08:33:43 on Oct 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_inv.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:43 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_inv.v 
+# -- Compiling module multiply_inv
+# 
+# Top level modules:
+# 	multiply_inv
+# End time: 08:33:43 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_forteen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:43 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_forteen.v 
+# -- Compiling module multiply_forteen
+# 
+# Top level modules:
+# 	multiply_forteen
+# End time: 08:33:43 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_eleven.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:43 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/multiply_eleven.v 
+# -- Compiling module multiply_eleven
+# 
+# Top level modules:
+# 	multiply_eleven
+# End time: 08:33:43 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/multiply.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:43 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/multiply.v 
+# -- Compiling module multiply
+# 
+# Top level modules:
+# 	multiply
+# End time: 08:33:44 on Oct 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/MixColumns.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:44 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/MixColumns.v 
+# -- Compiling module MixCloumns
+# 
+# Top level modules:
+# 	MixCloumns
+# End time: 08:33:44 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/InvMixColumns.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:44 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/InvMixColumns.v 
+# -- Compiling module InvMixColumns
+# 
+# Top level modules:
+# 	InvMixColumns
+# End time: 08:33:44 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/shift.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:44 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/shift.v 
+# -- Compiling module shift
+# 
+# Top level modules:
+# 	shift
+# End time: 08:33:44 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/ShiftRows.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:45 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/ShiftRows.v 
+# -- Compiling module ShiftRows
+# 
+# Top level modules:
+# 	ShiftRows
+# End time: 08:33:45 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/ShiftRows_inverse.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:45 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/ShiftRows_inverse.v 
+# -- Compiling module ShiftRows_inverse
+# 
+# Top level modules:
+# 	ShiftRows_inverse
+# End time: 08:33:45 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/inv_sbox.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:45 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/inv_sbox.v 
+# -- Compiling module inv_sbox
+# 
+# Top level modules:
+# 	inv_sbox
+# End time: 08:33:45 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/inv_Sub_Bytes.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:45 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/inv_Sub_Bytes.v 
+# -- Compiling module inv_Sub_Bytes
+# 
+# Top level modules:
+# 	inv_Sub_Bytes
+# End time: 08:33:45 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/sbox.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:46 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/sbox.v 
+# -- Compiling module sbox
+# 
+# Top level modules:
+# 	sbox
+# End time: 08:33:46 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/Sub_Bytes.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:46 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/Sub_Bytes.v 
+# -- Compiling module Sub_Bytes
+# 
+# Top level modules:
+# 	Sub_Bytes
+# End time: 08:33:46 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/Rcon.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:46 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/Rcon.v 
+# -- Compiling module Rcon
+# 
+# Top level modules:
+# 	Rcon
+# End time: 08:33:46 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/RotWord.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:46 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/RotWord.v 
+# -- Compiling module RotWord
+# 
+# Top level modules:
+# 	RotWord
+# End time: 08:33:46 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/SubWord.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:46 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/SubWord.v 
+# -- Compiling module SubWord
+# 
+# Top level modules:
+# 	SubWord
+# End time: 08:33:46 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/KeyExpansion.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:47 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/KeyExpansion.v 
+# -- Compiling module KeyExpansion
+# 
+# Top level modules:
+# 	KeyExpansion
+# End time: 08:33:47 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/General_KeyExpansion.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:47 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/General_KeyExpansion.v 
+# -- Compiling module General_KeyExpansion
+# 
+# Top level modules:
+# 	General_KeyExpansion
+# End time: 08:33:47 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/encryption.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:47 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/encryption.v 
+# -- Compiling module encryption
+# 
+# Top level modules:
+# 	encryption
+# End time: 08:33:47 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:47 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/wrapper.v 
+# -- Compiling module wrapper
+# 
+# Top level modules:
+# 	wrapper
+# End time: 08:33:47 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/decryption.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:47 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/decryption.v 
+# -- Compiling module decryption
+# 
+# Top level modules:
+# 	decryption
+# End time: 08:33:48 on Oct 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/wrapper_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:33:48 on Oct 10,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sggln/OneDrive/Documents/Logic_project" C:/Users/sggln/OneDrive/Documents/Logic_project/wrapper_tb.v 
+# -- Compiling module wrapper_tb
+# 
+# Top level modules:
+# 	wrapper_tb
+# End time: 08:33:48 on Oct 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  wrapper_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" wrapper_tb 
+# Start time: 08:33:48 on Oct 10,2022
+# Loading work.wrapper_tb
+# Loading work.wrapper
+# Loading work.encryption
+# Loading work.General_KeyExpansion
+# Loading work.KeyExpansion
+# Loading work.SubWord
+# Loading work.sbox
+# Loading work.Rcon
+# Loading work.RotWord
+# Loading work.shift
+# Loading work.Sub_Bytes
+# Loading work.ShiftRows
+# Loading work.decryption
+# Loading work.inv_Sub_Bytes
+# Loading work.inv_sbox
+# Loading work.ShiftRows_inverse
+# Loading work.MixCloumns
+# Loading work.multiply
+# Loading work.multiply_two
+# Loading work.InvMixColumns
+# Loading work.multiply_inv
+# Loading work.multiply_nine
+# Loading work.multiply_eleven
+# Loading work.multiply_thirteen
+# Loading work.multiply_forteen
+# ** Warning: Design size of 11672 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# input_data_____ output_of_encryption ______key_128____decryption_output
+#  00112233445566778899aabbccddeeff 69c4e0d86a7b0430d8cdb78070b4c55a 000102030405060708090a0b0c0d0e0f 00112233445566778899aabbccddeeff
+# input_data_____ output_of_encryption ______key_192____decryption_output
+#  00112233445566778899aabbccddeeff dda97ca4864cdfe06eaf70a0ec0d7191 000102030405060708090a0b0c0d0e0f1011121314151617 00112233445566778899aabbccddeeff
+# input_data_____ output_of_encryption ______key_256____decryption_output
+#  00112233445566778899aabbccddeeff 8ea2b7ca516745bfeafc49904b496089 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f 00112233445566778899aabbccddeeff
+# pass_128
+# pass_192
+# pass_256
+# Break key hit
+# Simulation stop requested.
+# End time: 10:25:26 on Oct 10,2022, Elapsed time: 1:51:38
+# Errors: 0, Warnings: 1

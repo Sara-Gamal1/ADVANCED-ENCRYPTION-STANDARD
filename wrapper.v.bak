@@ -1,0 +1,50 @@
+module wrapper (input reg clk,output led);
+integer n;
+wire [127:0]out;
+wire [127:0]out2;
+reg [127:0]in;
+clk=0;
+
+always #10 clk=~clk;
+
+
+
+case(n)
+1:begin reg [127:0]key;
+ encryption#(1)e(in,out,key);
+        decryption#(1)d(out,out2,key);
+		  
+         end
+			2:   begin reg [191:0]key;
+		
+		encryption#(2)e(in,out,key);
+decryption#(2)d(out,out2,key);
+end 
+3:begin reg [255:0]key; encryption#(1)e(in,out,key);
+decryption#(1)d(out,out2,key);
+end
+default: ;
+endcase
+assign led=(out2==in)?1:0;
+intial begin
+
+
+#10 n=1;
+in=00112233445566778899aabbccddeeff;
+
+key=000102030405060708090a0b0c0d0e0f;
+
+
+#10 n=2;
+
+in=00112233445566778899aabbccddeeff;
+key=000102030405060708090a0b0c0d0e0f1011121314151617;
+
+#10 n=3;
+
+in=00112233445566778899aabbccddeeff;
+key=000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f;
+
+
+
+endmodule

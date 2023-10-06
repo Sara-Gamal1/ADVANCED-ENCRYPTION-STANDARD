@@ -1,0 +1,7 @@
+module  RotWord(in,out);
+input [31:0]in;
+output [31:0]out;
+wire [1:0]y;
+assign y='b01;
+shift s1 (y,in,out);
+endmodule

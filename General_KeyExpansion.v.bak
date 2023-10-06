@@ -1,0 +1,49 @@
+module General_KeyExpansion#(parameter size=256,parameter h)(k,w);
+output[(32*(44+(10*h)))-1:0]w;
+input[size-1:0]k;
+reg [3:0] v[9:0];
+integer i;
+initial
+begin
+for(i=0;i<10;i=i+1)v[i]=i;
+end
+if(size=='d128)//44*32
+begin
+assign w[1407:1280]=k[127:0];
+KeyExpansion #(128) k0(w[1407:1280],v[0],w[1279:1152]);
+KeyExpansion #(128) k9(w[1279:1152],v[1],w[1151:1024]);
+KeyExpansion #(128) k8(w[1151:1024],v[2],w[1023:896]);
+KeyExpansion #(128) k7(w[1023:896],v[3],w[895:768]);
+KeyExpansion #(128) k6(w[895:768],v[4],w[767:640]);
+KeyExpansion #(128) k5(w[767:640],v[5],w[639:512]);
+KeyExpansion #(128) k4(w[639:512],v[6],w[511:384]);
+KeyExpansion #(128) k3(w[511:384],v[7],w[383:256]);
+KeyExpansion #(128) k2(w[383:256],v[8],w[255:128]);
+KeyExpansion #(128) k1(w[255:128],v[9],w[127:0]);
+end
+else
+if (size=='d192)//54*32
+begin
+assign w[1727:1536]=k[191:0];
+KeyExpansion #(192) x8(w[1727:1536],v[0],w[1535:1344]);
+KeyExpansion #(192) x7(w[1535:1344],v[1],w[1343:1152]);
+KeyExpansion #(192) x6(w[1343:1152],v[2],w[1151:960]);
+KeyExpansion #(192) x5(w[1151:960],v[3],w[959:768]);
+KeyExpansion #(192) x4(w[959:768],v[4],w[767:576]);
+KeyExpansion #(192) x3(w[767:576],v[5],w[575:384]);
+KeyExpansion #(192) x2(w[575:384],v[6],w[383:192]);
+KeyExpansion #(192) x1(w[383:192],v[7],w[191:0]);
+end
+else
+if(size=='d256)//64*32
+begin
+assign w[2047:1792]=k;
+KeyExpansion #(256) q8(w[2047:1792],v[0],w[1791:1536]);
+KeyExpansion #(256) q7(w[1791:1536],v[1],w[1535:1280]);
+KeyExpansion #(256) q5(w[1535:1280],v[2],w[1279:1024]);
+KeyExpansion #(256) q4(w[1279:1024],v[3],w[1023:768]);
+KeyExpansion #(256) q3(w[1023:768],v[4],w[767:512]);
+KeyExpansion #(256) q2(w[767:512],v[5],w[511:256]);
+KeyExpansion #(256) q1(w[511:256],v[6],w[255:0]);
+end
+endmodule

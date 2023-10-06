@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/shift.v}
+vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/sbox.v}
+vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/Rcon.v}
+vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/RotWord.v}
+vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/SubWord.v}
+vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/KeyExpansion.v}
+vlog -vlog01compat -work work +incdir+C:/Users/sggln/OneDrive/Documents/Logic_project {C:/Users/sggln/OneDrive/Documents/Logic_project/General_KeyExpansion.v}
+
